@@ -1,0 +1,42 @@
+.banner-2{
+    /* width:100%; */
+    margin:10rem 5rem;
+    padding:5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-2 .text-content{
+    max-width: 900px;
+}
+
+.banner-2 .text-content .headline{
+    color: #141414;
+    font-size: 6rem;
+    font-family: 'Ogg', 'serif';
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner-2 .text-content .headline span{
+    color: #FBB0ED;
+}
+
+.banner-2 .text-content .sub-headline{
+    width:60%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #141414;
+    margin: 3rem 0 0 0;
+}
+
+.banner-2 .image-container{
+    flex-grow: 1;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.banner-2 .image-container img{
+    max-width: 666px;
+    object-fit: contain;
+}

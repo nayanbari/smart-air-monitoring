@@ -1,0 +1,69 @@
+.banner{
+    position: relative;
+    /* width:100%; */
+    height:90vh;
+    padding-left: 5rem;
+}
+
+.banner .text-content{
+    position:absolute;
+    text-align:left;
+    /* width:50%; */
+    top: 30%;
+    z-index:1;
+}
+
+.banner .text-content .headline{
+    color: #141414;
+    font-size: 9rem;
+    font-family: 'Ogg', 'serif';
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner .text-content .headline span{
+    color: #FBB0ED;
+}
+
+.banner .text-content .sub-headline{
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.banner .text-content button{
+    font-size: 1rem;
+    font-family: 'Poppins', 'sans-serif';
+    padding: 1rem 2.5rem;
+    background-color: #141414;
+    color: #fff;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+}
+
+.banner .image-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 70%;
+    background-color: #F0F0F0;
+}
+
+.banner .image-container img{
+    width: 9rem;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: circularText 5s linear 2s infinite forwards;
+}
+
+@keyframes circularText {
+    0%{
+        transform: rotateZ(0)
+    }
+    100%{
+        transform: rotateZ(360deg)
+    }
+}
